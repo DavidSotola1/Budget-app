@@ -10,12 +10,16 @@ function App() {
 
     </Stack>
 
-    <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax:(300px, 1fr))',
-    gap:'1rem', alignitems: 'flex-start'}}>
-        <BudgetCard name='Entertainment' amount={200} max={1000}></BudgetCard>
-    </div>
+    <div 
+        style={{
+            display: 'grid', 
+            gridTemplateColumns: 'repeat(auto-fill, minmax:(300px, 1fr))',
+            gap:'1rem', 
+            alignitems: 'flex-start'}}>
 
-    </Container>
+        <BudgetCard name='Entertainment' gray amount={1000} max={1000}></BudgetCard>
+    </div>
+</Container>
 
 }
 
